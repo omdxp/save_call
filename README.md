@@ -6,6 +6,10 @@ A phone call application that helps saving your calls on your phone.
 
 ![Home UI](screenshots/home_ui.png)
 
+## Current Drawer UI
+
+![Drawer UI](screenshots/drawer_ui.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

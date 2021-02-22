@@ -2,6 +2,10 @@
 
 A phone call application that helps saving your calls on your phone.
 
+## Current Home UI
+
+![Home UI](screenshots/home_ui.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

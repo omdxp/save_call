@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:save_call/utils/constants.dart';
+import 'package:save_call/widgets/drawer_content.dart';
 import 'package:save_call/widgets/phone_buttons.dart';
 
 class Home extends StatefulWidget {
@@ -15,35 +15,7 @@ class _HomeState extends State<Home> {
         centerTitle: true,
         title: Text('Home'),
       ),
-      drawer: Drawer(
-        elevation: 8.5,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(
-              height: 100,
-            ),
-            Text(
-              'Profile',
-              style: TextStyle(fontSize: FONT_SIZE_TEXT),
-            ),
-            SizedBox(
-              height: SPACE_HEIGHT,
-            ),
-            Text(
-              'Calls',
-              style: TextStyle(fontSize: FONT_SIZE_TEXT),
-            ),
-            SizedBox(
-              height: SPACE_HEIGHT,
-            ),
-            Text(
-              'Parameters',
-              style: TextStyle(fontSize: FONT_SIZE_TEXT),
-            ),
-          ],
-        ),
-      ),
+      drawer: Drawer(elevation: 8.5, child: DrawerContent()),
       body: Container(
           padding: EdgeInsets.all(8),
           child: Column(
